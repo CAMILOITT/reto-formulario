@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(https://imborrable.com/wp-content/uploads/2021/04/fotos-gratis-de-stock-1.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+.contenedor {
+  width: 300px;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding: 10px;
+  margin: auto auto;
+  margin-top: 10%;
+  box-shadow: 0px 0px 30px 20px black;
+}
+.contenedor h2 {
+  text-align: center;
+  color: white;
+  margin: 10px 0px;
+}
+.contenedor label {
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+.contenedor input {
+  width: 90%;
+  margin: 10px 0px 10px 2%;
+  padding: 7px;
+  border: none;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.contenedor input[type="submit"] {
+  color: white;
+  background-color: hsl(220, 70%, 60%);
+  width: 100%;
+  margin-left: 0;
+  cursor: pointer;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+.contenedor input[type="submit"]:hover {
+  background-color: hsl(220, 100%, 52%);
+}
+.contenedor p {
+  text-align: right;
+  margin-right: 20px;
+}
+.contenedor a {
+  color: white;
+  text-decoration: none;
+}
+.contenedor a:hover {
+  color: hsl(220, 70%, 80%);
+  text-decoration: underline;
+}
