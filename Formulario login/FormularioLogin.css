@@ -5,14 +5,19 @@
 body {
   background-image: url(https://imborrable.com/wp-content/uploads/2021/04/fotos-gratis-de-stock-1.jpg);
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: center;
   background-size: cover;
   font-family: 'Koulen', cursive;
   text-anchor: middle;
-  letter-spacing: .7px;
+  letter-spacing: 0.7px;
+  display: flex;
+  align-content: center;align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
 }
 .contenedor {
-  width: 25%;
+  width: 100%;
   border-top: 3px solid white;
   border-bottom: 3px solid white;
   background-color: rgba(0, 0, 0, 0.7);
@@ -23,7 +28,6 @@ body {
   -o-border-radius: 20px;
   padding: 10px;
   margin: auto auto;
-  margin-top: 10%;
   box-shadow: 0px 0px 30px 20px black;
 }
 .contenedor h2 {
@@ -31,7 +35,7 @@ body {
   color: white;
   margin: 10px 0px;
 }
-.contenedor form{
+.contenedor form {
   color: white;
 }
 .contenedor label {
@@ -50,7 +54,7 @@ body {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
-.contenedor input[type="submit"] {
+.contenedor input[type='submit'] {
   color: white;
   background-color: hsl(220, 70%, 60%);
   width: 100%;
@@ -63,13 +67,13 @@ body {
   -o-transition: 1s;
   font-family: 'Koulen', cursive;
 }
-.contenedor input[type="submit"]:hover {
+.contenedor input[type='submit']:hover {
   background-color: hsl(220, 100%, 52%);
 }
-.contenedor input::placeholder{
+.contenedor input::placeholder {
   font-family: 'Koulen', cursive;
 }
-.contenedor fieldset  {
+.contenedor fieldset {
   border: 2px solid white;
   border-radius: 0px 20px 0px 20px;
   -webkit-border-radius: 0px 20px 0px 20px;
@@ -84,11 +88,28 @@ body {
   -ms-transition: 1s;
   -o-transition: 1s;
 }
-.contenedor fieldset img{ transition:1s ; -webkit-transition:1s ; -moz-transition:1s ; -ms-transition:1s ; -o-transition:1s ; }
-.contenedor fieldset img:hover{ transform: scale(1.3) ; -webkit-transform: scale(1.3) ; -moz-transform: scale(1.3) ; -ms-transform: scale(1.3) ; -o-transform: scale(1.3) ; }
-.contenedor fieldset:hover{ border-radius: 20px 0px 20px 0px; -webkit-border-radius: 20px 0px 20px 0px; -moz-border-radius: 20px 0px 20px 0px; -ms-border-radius: 20px 0px 20px 0px; -o-border-radius: 20px 0px 20px 0px;
+.contenedor fieldset img {
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
 }
-.contenedor form legend{
+.contenedor fieldset img:hover {
+  transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -o-transform: scale(1.3);
+}
+.contenedor fieldset:hover {
+  border-radius: 20px 0px 20px 0px;
+  -webkit-border-radius: 20px 0px 20px 0px;
+  -moz-border-radius: 20px 0px 20px 0px;
+  -ms-border-radius: 20px 0px 20px 0px;
+  -o-border-radius: 20px 0px 20px 0px;
+}
+.contenedor form legend {
   color: white;
   transition: 2s;
   -webkit-transition: 2s;
@@ -96,20 +117,32 @@ body {
   -ms-transition: 2s;
   -o-transition: 2s;
 }
-.contenedor form fieldset:hover legend{
+.contenedor form fieldset:hover legend {
   color: hsl(220, 100%, 80%);
 }
 .contenedor a {
   color: white;
   text-decoration: none;
 }
-.contenedor footer{
+.contenedor footer {
   display: flex;
   justify-content: space-between;
   padding: 15px 10px 0px;
 }
-.contenedor p{ transition:1s ; -webkit-transition:1s ; -moz-transition:1s ; -ms-transition:1s ; -o-transition:1s ; }
-.contenedor p a{ transition:1s ; -webkit-transition:1s ; -moz-transition:1s ; -ms-transition:1s ; -o-transition:1s ; }
+.contenedor p {
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+.contenedor p a {
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
 .contenedor footer a:hover {
   color: hsl(220, 70%, 80%);
   text-decoration: underline;
